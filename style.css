@@ -1,13 +1,15 @@
 html {
     overflow: hidden;
     height: 100%;
-    background: #FFFFFF;
+    background: black;
     width: 100%;
 }
 
 canvas {
     border: 1px solid black;
-  }
+    background: url('http://imgsrc.hubblesite.org/hvi/uploads/image_file/image_attachment/19995/full_jpg.jpg') no-repeat; 
+    background-size: cover;  
+}
 
   .text-center{
       text-align: center;
